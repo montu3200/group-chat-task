@@ -1,13 +1,11 @@
 const ROLES = {
-    ADMIN: 1,
-    STAFF_MEMBERS: 2,
-    CLIENT: 3,
-    CUSTOMER: 4
+    ADMIN: "Admin",
+    USER:"User"
 };
 const STATUS = {
-    ACTIVE: "Active",
-    INACTIVE: "Inactive",
-    DELETE: "Delete",
+    ENABLE: "Enable",
+    DISABLE: "Disable",
+    DELETED: "Deleted",
 };
 const ACCOUNT_TYPE = {
     INDIVIDUAL: 1,
